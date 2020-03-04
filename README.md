@@ -43,7 +43,7 @@ where model can be:
 if --hw is supplied: the chosen model will be combined with Holt-Winter otherwise it will be just pure NN
 if --no_cb is supplied: no callbacks will be recorded, only a csv file containing predictions will be recorded at the end
 
-````angular2html
+````
 Example: python script\example_time_series.py --model="Conv_LSTM" --hw
 (Warning:  because of the number of datapoints we train, it may take up to 25Gb of RAM)
 ````
@@ -66,7 +66,7 @@ where model can be:
 if --hw is supplied: the chosen model will be combined with Holt-Winter otherwise it will be just pure NN
 if --no_cb is supplied: no callbacks will be recorded, only a csv file containing predictions will be recorded at the end
 
-````angular2html
+````
 Example: python script\example_lorenz.py --model="Conv_LSTM" --hw
 (Warning:  because of the number of datapoints we train, it may take up to 25Gb of RAM)
 ````
@@ -89,7 +89,7 @@ where model can be:
 if --hw is supplied: the chosen model will be combined with Holt-Winter otherwise it will be just pure NN
 if --no_cb is supplied: no callbacks will be recorded, only a csv file containing predictions will be recorded at the end
 
-````angular2html
+````
 Example: python script\Dowjones_Executer.py --model="Conv_LSTM" --hw
 ````
 
@@ -100,5 +100,5 @@ python script\dowjones_results.py
 
 ## Results
 Below are some sample results of our generated predictions vs the ground truth. <br> <br>
-<img src="https://drive.google.com/uc?id=1bXaSOi9X4Ok3b_5SGgieA_sBpur6Qz0V" width="600"/>
-<img src="https://drive.google.com/uc?id=1Fta4tmlAV9y5fwPLxC8MZi-jtercoWUE" width="600"/>
+<img src="./img/lorenz_conv-lstm-raw-1.jpg" width="600"/>
+<img src="./img/noisy_conv-lstm-1.jpg" width="600"/>
