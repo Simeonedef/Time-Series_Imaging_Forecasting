@@ -1,7 +1,7 @@
 <h1 align="center">
   Imaging Time-Series to improve NN forecasting
 </h1>
-<p align="center">Alper Karaaslan, Francesco Forcher, Simeone de Fremond, Stefano d'Apolito<br>
+<p align="center">Stefano d'Apolito, Francesco Forcher, Simeone de Fremond, Alper Karaaslan<br>
 In this project we have explored the use of imaging time series to enhance forecasting results with Neural Networks. The approach has revealed itself to be extremely promising as, both in combination with an LSTM architecture and without, it has out-performed the pure LSTM architecture by a solid margin within our test datasets.</p>
 <div align="center">
 <a href="https://www.python.org/downloads/"><img alt="Python 3.6" src="https://img.shields.io/badge/Python-3.6-brightgreen" /></a>
