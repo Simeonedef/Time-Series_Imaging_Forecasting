@@ -5,6 +5,7 @@
 In this project we have explored the use of imaging time series to enhance forecasting results with Neural Networks. The approach has revealed itself to be extremely promising as, both in combination with an LSTM architecture and without, it has out-performed the pure LSTM architecture by a solid margin within our test datasets.</p>
 <div align="center">
 <a href="https://www.python.org/downloads/"><img alt="Python 3.6" src="https://img.shields.io/badge/Python-3.6-brightgreen" /></a>
+<a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img alt="License GPL" src="https://img.shields.io/badge/license-GPL-blue" /></a>
 </div>
 
 ## Installation and requirements
