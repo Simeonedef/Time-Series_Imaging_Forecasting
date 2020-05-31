@@ -2,6 +2,7 @@
   Imaging Time-Series to improve NN forecasting
 </h1>
 <p align="center">Stefano d'Apolito, Francesco Forcher, Simeone de Fremond, Alper Karaaslan<br>
+<img src="https://ethz.ch/etc/designs/ethz/img/header/ethz_logo_black.svg" width="150px"><br>
 In this project we have explored the use of imaging time series to enhance forecasting results with Neural Networks. The approach has revealed itself to be extremely promising as, both in combination with an LSTM architecture and without, it has out-performed the pure LSTM architecture by a solid margin within our test datasets.</p>
 <div align="center">
 <a href="https://www.python.org/downloads/"><img alt="Python 3.6" src="https://img.shields.io/badge/Python-3.6-brightgreen" /></a>
@@ -103,3 +104,6 @@ python script\dowjones_results.py
 Below are some sample results of our generated predictions vs the ground truth. <br> <br>
 <img src="./img/lorenz_conv-lstm-raw-1.jpg" width="600"/>
 <img src="./img/noisy_conv-lstm-1.jpg" width="600"/>
+
+<hr>
+This project was awarded 5.75/6.0 as part of the Deep Learning class taught by Prof. Dr. Thomas Hofmann at ETH Zürich.
