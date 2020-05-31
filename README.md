@@ -24,7 +24,7 @@ In this project we have explored the use of imaging time series to enhance forec
 
 To install all requirements run:
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 If you run into some issues, make sure that matplotlib is already installed on your machine.
 
